@@ -39,3 +39,6 @@ class DdSpider(scrapy.Spider):
         sel=scrapy.Selector(response)
         #获取商品信息
         #1 商品名  2 商品id  3商品价格  4 商品分类
+
+    def testaa(self):
+        print("wtf")
